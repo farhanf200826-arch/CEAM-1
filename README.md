@@ -41,7 +41,3 @@ Reads a PPM image file named `test.ppm` (plain-text P3 format). It prints the wi
 ### `main()`
 The main loop. It shows the menu, takes the user's choice, prints the original image and the processed result, and repeats until the user enters `-1`.
 
-## Notes
-
-- The original image `A` is never changed; each operation returns a new image.
-- The menu text says `1-exit`, but the actual exit option is `-1` (`1` is Invert).
