@@ -15,11 +15,12 @@ def show(img):
 
 def invert(img):
     c=list()
+    x =0
     for i in img:
         b = list()
         for j in i:
-            j=255-j
-            b.append(j)
+            x=255-j
+            b.append(x)
         c.append(b)
     return c
 
